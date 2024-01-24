@@ -1,0 +1,19 @@
+{
+  "name": "webstorm-bug-findUsage-styledComponents",
+  "version": "0.0.1",
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "author": "scolab",
+  "main": "index.tsx",
+  "types": "./index.tsx",
+  "scripts": {
+    "ts:compile": "tsc -p config/typescript/tsconfig.sources.json"
+  },
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+  },
+  "devDependencies": {
+    "@types/react": "16.9.53",
+    "typescript": "4.9.5"
+  }
+}
